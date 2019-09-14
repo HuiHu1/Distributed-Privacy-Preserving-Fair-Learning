@@ -1,1 +1,2 @@
 # Distributed-Private-Fair-Learning
+In this project, we propose a distributed fair learning framework for protecting the privacy of demographic data: we assume there is a third party that privately holds demographic data, to learn fair models, data center first constructs a random but fair hypothesis space through private communication with the third party; then it learns an accurate hypothesis in this space.
