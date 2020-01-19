@@ -76,6 +76,6 @@ for loop=1:iter
         end
     end
 end
-[diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1,iter);
+[diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1);
 t2=toc;
 display(strcat('parfor²¢ÐÐ¼ÆËãÊ±¼ä£º',num2str(t2),'Ãë'));
