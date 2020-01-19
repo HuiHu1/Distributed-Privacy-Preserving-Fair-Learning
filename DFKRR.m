@@ -121,6 +121,6 @@ for loop=1:iter
         end
     end
 end
-[diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1,iter);
+[diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1);
 t2=toc;
-display(strcat('parfor并行计算时间：',num2str(t2),'秒'));
+display(strcat('parfor虏垄脨脨录脝脣茫脢卤录盲拢潞',num2str(t2),'脙毛'));
