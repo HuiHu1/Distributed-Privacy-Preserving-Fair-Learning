@@ -7,11 +7,11 @@ randomset = csvread('data/compas/compas_index.csv');
 iter=50;
 featureNum=14;
 for i=1:iter
-    data1(i,1)=30;
-    SP(i,1)=30;
-    DI(i,1)=30;
-    data_minority(i,1)=30;
-    data_majority(i,1)=30;
+    data1(i,1)=Inf;
+    SP(i,1)=Inf;
+    DI(i,1)=Inf;
+    data_minority(i,1)=Inf;
+    data_majority(i,1)=Inf;
 end
 for loop=1:iter
     normal_data = DataSample(:,1:14);
@@ -47,7 +47,7 @@ for loop=1:iter
         W1_optimal = W_new*beta(:,i); 
         W_projection(:,i) = W1_optimal;
     end
-    for parameter=-3:3
+    for parameter=3 #(-5~5)
         alpha =10^(parameter);
         cofficient = pinv(transpose(W_projection)*transpose(train_x)*train_x*W_projection+alpha*eye(b,b))*transpose(W_projection)*transpose(train_x)*train_label;
         predict_label = test_x*(W_projection*cofficient);
@@ -86,6 +86,7 @@ for loop=1:iter
         end
     end
 end
+# Select efficient iterations
 [diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1);
 t2=toc;
 display(strcat('parfor²¢ÐÐ¼ÆËãÊ±¼ä£º',num2str(t2),'Ãë'));
