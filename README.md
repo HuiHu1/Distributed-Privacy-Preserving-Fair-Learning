@@ -6,6 +6,8 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
 
 # Citation
 
+```
+{
 @inproceedings{hu2019distributed,
   title={A distributed fair machine learning framework with private demographic data protection},
   author={Hu, Hui and Liu, Yijun and Wang, Zhen and Lan, Chao},
@@ -14,6 +16,5 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
   year={2019},
   organization={IEEE}
 }
-if (isAwesome){
-  return true
 }
+```
