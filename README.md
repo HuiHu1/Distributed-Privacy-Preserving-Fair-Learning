@@ -16,5 +16,4 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
   year={2019},
   organization={IEEE}
 }
-}
 ```
