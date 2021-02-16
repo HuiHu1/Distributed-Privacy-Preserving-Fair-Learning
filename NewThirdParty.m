@@ -3,8 +3,10 @@ trainset = randomset(1:12000,loop);
 train_Sensitive=DataSample(trainset(:,1),15);
 threshold=covariance; 
 [a,b]=size(W_old);
-cov_between=cov(train_Sensitive,non_sensitive);
-if(abs(cov_between(1,2))<=threshold)
+s1 = train_Sensitive-mean(train_Sensitive)
+len = 12000
+cov_b = transpose(s1)*non_sensitive/len
+if(abs(cov_b)<=threshold)
     W_fair = W_old;
 else
     for i=1:a
