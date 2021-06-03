@@ -1,4 +1,3 @@
-### Distributed-Private-Fair-Learning
 Matlab implementation of "A Distributed Fair Machine Learning Framework with Private Demographic Data Protection" (ICDM 2019) [[paper]](https://arxiv.org/abs/1909.08081).
 ### Abstract
 Fair machine learning has become a significant research topic with broad societal impact. However, most fair learning methods require direct access to personal demographic
