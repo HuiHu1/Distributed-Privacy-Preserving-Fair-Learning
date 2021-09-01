@@ -103,7 +103,7 @@ for loop=1:iter
         al(loop,:) =  alpha_initial;
     end
 end
-# Select efficient iterations
+%Select efficient iterations
 [diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1);
 t2=toc;
 display(strcat('parfor²¢ÐÐ¼ÆËãÊ±¼ä£º',num2str(t2),'Ãë'));
