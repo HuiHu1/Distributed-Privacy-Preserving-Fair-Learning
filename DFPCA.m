@@ -53,7 +53,8 @@ for loop=1:iter
         predict_label = test_x*(W_projection*cofficient);
         [prow pcolumn]=size(predict_label);
         for i = 1:prow
-            if(abs(real(predict_label(i,1)))>=0.5)
+            %threshold moving(reference: https://machinelearningmastery.com/threshold-moving-for-imbalanced-classification/).
+            if(abs(real(predict_label(i,1)))>=0.5) 
                 predict_label(i,1)=1;
             else
                 predict_label(i,1)=0;
