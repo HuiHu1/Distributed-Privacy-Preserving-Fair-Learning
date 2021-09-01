@@ -42,7 +42,8 @@ for loop=1:iter
             prediction_label = test_x*(W_new*cofficient);
             [prow pcolumn]=size(prediction_label);
             for i = 1:prow
-                if(abs(prediction_label(i,1))>=0.5)
+            % if all predictions are smaller than default value 0.5, do threshold moving(reference: https://machinelearningmastery.com/threshold-moving-for-imbalanced-classification/).
+                if(abs(prediction_label(i,1))>=0.5) 
                     prediction_label(i,1)=1;
                 else
                     prediction_label(i,1)=0;
