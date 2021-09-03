@@ -40,7 +40,7 @@ for i=1:iter
     data_majority(i,1)=Inf;
 end
 for loop=1:iter
-    %   normal_data = DataSample(:,1:14);
+    %normal_data = DataSample(:,1:14);
     normal_data = [training;testing];
     trainset = randomset(1:12000,loop);
     testset = randomset(12001:16000,loop);
@@ -83,7 +83,7 @@ for loop=1:iter
     W_fair(:,all(W_fair==0)) = [];
     [row,column]=size(W_fair);
     W_new= W_fair;
-    for parameter=3 #(-5~5)
+    for parameter=3 #grid search
         lamda=10^(parameter);
         cofficient=pinv(transpose(W_new)*transpose(Kernel+lamda*eye)*(Kernel+lamda*eye)*W_new)*transpose(W_new)*transpose(Kernel+lamda*eye)*train_label;
         prediction_label = M*(W_new*cofficient);
