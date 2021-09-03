@@ -47,7 +47,7 @@ for loop=1:iter
         W1_optimal = W_new*beta(:,i); 
         W_projection(:,i) = W1_optimal;
     end
-    for parameter=3 #(-5~5)
+    for parameter=3 #grid search
         alpha =10^(parameter);
         cofficient = pinv(transpose(W_projection)*transpose(train_x)*train_x*W_projection+alpha*eye(b,b))*transpose(W_projection)*transpose(train_x)*train_label;
         predict_label = test_x*(W_projection*cofficient);
