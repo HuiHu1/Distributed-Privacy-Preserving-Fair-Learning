@@ -67,13 +67,15 @@ for loop=1:iter
         [error_min,error_ma,Fair_SP,Fair_DI]=Calcualte(pr_test,test_label,loop,DataSample,randomset);
         data_minority(loop,1)=error_min;
         data_majority(loop,1)=error_ma;
-        data1(loop,1) = error_temp;
-        error_temp=0;
-        SP(loop,1)=Fair_SP;
-        if(SP(loop,1)==0)
-           DI(loop,1)=0;
-        else
-           DI(loop,1)=Fair_DI; 
+        if(data1(loop,1) > error_temp || SP(loop,1)>Fair_SP) 
+               data1(loop,1) = error_temp;
+               error_temp=0;
+               SP(loop,1)=Fair_SP;
+               if(SP(loop,1)==0)
+                  DI(loop,1)=0;
+              else
+                  DI(loop,1)=Fair_DI; 
+              end
         end
         M = zeros(x1,x1);
         for i=1:x1
