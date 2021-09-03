@@ -105,14 +105,16 @@ for loop=1:iter
         [sub_error_min,sub_error_ma,Fair_SP,Fair_DI] = Calcualte(prediction_label,test_label,loop,DataSample,randomset);
         data_minority(loop,1)=sub_error_min;
         data_majority(loop,1)=sub_error_ma;
-        data1(loop,1) = error_temp;
-        error_temp=0;
-        SP(loop,1)=Fair_SP;
-        if(SP(loop,1)==0)
-           DI(loop,1)=0;
-        else
-           DI(loop,1)=Fair_DI; 
-        end
+        if(data1(loop,1) > error_temp || SP(loop,1)>Fair_SP) 
+               data1(loop,1) = error_temp;
+               error_temp=0;
+               SP(loop,1)=Fair_SP;
+               if(SP(loop,1)==0)
+                  DI(loop,1)=0;
+              else
+                  DI(loop,1)=Fair_DI; 
+              end
+       end
     end
 end
 %Select efficient iterations
