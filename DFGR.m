@@ -65,26 +65,16 @@ for loop=1:iter
             end
         end
         error_temp=counter/x2;
-        if(data1(loop,1)>error_temp)
-            data1(loop,1)=error_temp;
-        end
-        error_temp=0;
         [error_min,error_ma,Fair_SP,Fair_DI]=Calcualte(pr_test,test_label,loop,DataSample,randomset);
-        if(data_minority(loop,1)>error_min)
-            data_minority(loop,1)=error_min;
-        end
-        if(data_majority(loop,1)>error_ma)
-            data_majority(loop,1)=error_ma;
-        end
-        if(SP(loop,1)>Fair_SP)
-            SP(loop,1)=Fair_SP;
-        end
+        data_minority(loop,1)=error_min;
+        data_majority(loop,1)=error_ma;
+        data1(loop,1) = error_temp;
+        error_temp=0;
+        SP(loop,1)=Fair_SP;
         if(SP(loop,1)==0)
-            DI(loop,1)=0;
+           DI(loop,1)=0;
         else
-            if(DI(loop,1)>Fair_DI)
-                DI(loop,1)=Fair_DI;
-            end
+           DI(loop,1)=Fair_DI; 
         end
         M = zeros(x1,x1);
         for i=1:x1
@@ -103,7 +93,6 @@ for loop=1:iter
         al(loop,:) =  alpha_initial;
     end
 end
-%Select efficient iterations
 [diviation_SP,diviation_DI,diviation_Error] = Deviation(SP,DI,data1);
 t2=toc;
 display(strcat('parfor²¢ÐÐ¼ÆËãÊ±¼ä£º',num2str(t2),'Ãë'));
