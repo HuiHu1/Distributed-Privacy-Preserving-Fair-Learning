@@ -1,5 +1,5 @@
-Matlab implementation of paper "A Distributed Fair Machine Learning Framework with Private Demographic Data Protection" (ICDM 2019) [[paper]](https://arxiv.org/abs/1909.08081) and
-paper "Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework" (PPAI 2019) [[paper]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
+Matlab implementation of paper "A Distributed Fair Machine Learning Framework with Private Demographic Data Protection" (ICDM 2019) [[Link]](https://arxiv.org/abs/1909.08081) and
+paper "Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework" (PPAI 2019) [[Link]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
 
 
 ### Abstract
