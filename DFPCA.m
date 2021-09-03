@@ -67,23 +67,17 @@ for loop=1:iter
                 count =count+1;
             end
         end
-        error_temp = count/trow;
-        if(error_temp<data1(loop,1))
-            data1(loop,1) = error_temp;
-        end
-        error_temp=0;
         [sub_error_min,sub_error_ma,Fair_SP,Fair_DI] = Calcualte(predict_label,test_label,loop,DataSample,randomset);
         data_minority(loop,1)=sub_error_min;
         data_majority(loop,1)=sub_error_ma;
-        if(SP(loop,1)>Fair_SP)
-          SP(loop,1)=Fair_SP;
-        end
+        error_temp = count/trow;
+        data1(loop,1) = error_temp;
+        error_temp=0;
+        SP(loop,1)=Fair_SP;
         if(SP(loop,1)==0)
-            DI(loop,1)=0;
+           DI(loop,1)=0;
         else
-            if(DI(loop,1)>Fair_DI)
-               DI(loop,1)=Fair_DI;
-            end
+           DI(loop,1)=Fair_DI; 
         end
     end
 end
