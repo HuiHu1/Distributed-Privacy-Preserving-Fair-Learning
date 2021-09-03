@@ -35,7 +35,7 @@ for loop=1:iter
     if(b~=0)
         dimension=b;
         W_new =W_fair;
-        for parameter=3 %grid search
+        for parameter=3 %grid search for best balance
             alpha = 10^(parameter);
             cofficient = pinv(transpose(W_new)*transpose(train_x)*train_x*W_new+alpha*eye(dimension,dimension))*transpose(W_new)*transpose(train_x)*train_label;
             prediction_label = test_x*(W_new*cofficient);
@@ -59,14 +59,16 @@ for loop=1:iter
             data_minority(loop,1)=sub_error_min;
             data_majority(loop,1)=sub_error_ma;
             error_temp = count/trow;
-            data1(loop,1) = error_temp;
-            error_temp=0;
-            SP(loop,1)=Fair_SP;
-            if(SP(loop,1)==0)
-                DI(loop,1)=0;
-            else
-                DI(loop,1)=Fair_DI; 
-            end
+            if(data1(loop,1) > error_temp || SP(loop,1)>Fair_SP) 
+               data1(loop,1) = error_temp;
+               error_temp=0;
+               SP(loop,1)=Fair_SP;
+               if(SP(loop,1)==0)
+                  DI(loop,1)=0;
+              else
+                  DI(loop,1)=Fair_DI; 
+              end
+           end
         end
     end
 end
