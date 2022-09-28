@@ -18,5 +18,11 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
   year={2019},
   organization={IEEE}
 }
+@inproceedings{hu2020inference,
+  title={Inference attack and defense on the distributed private fair learning framework},
+  author={Hu, Hui and Lan, Chao},
+  booktitle={The AAAI Workshop on Privacy-Preserving Artificial Intelligence},
+  year={2020}
+}
 ```
 
