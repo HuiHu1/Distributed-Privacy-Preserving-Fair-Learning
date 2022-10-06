@@ -1,13 +1,21 @@
-Matlab implementation of distributed privacy-preserving fair learning:
+Matlab and Python implementation of privacy-preserving fair machine learning:
 
 1. "A Distributed Fair Machine Learning Framework with Private Demographic Data Protection" (ICDM 2019) [[Link]](https://arxiv.org/abs/1909.08081) 
 
 2. "Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework" (PPAI 2019) [[Link]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
 
+3. "Privacy-Preserving Fair Machine Learning Without Collecting Sensitive Demographic Data" (IJCNN 2021) [[Link]](https://www.researchgate.net/publication/354713144_Privacy-Preserving_Fair_Machine_Learning_Without_Collecting_Sensitive_Demographic_Data).
+
+4. Privacy-Preserving Fair Machine Learning by Utilizing Proxy Data. SDM 2021 (poster).
+
 
 ### Abstract
 Fair machine learning has become a significant research topic with broad societal impact. However, most fair learning methods require direct access to personal demographic
 data, which is increasingly restricted to use for protecting user privacy (e.g. by the EU General Data Protection Regulation). In this paper, we propose a distributed fair learning framework for protecting the privacy of demographic data. We assume this data is privately held by a third party, which can communicate with the data center (responsible for model development) without revealing the demographic information. We propose a principled approach to design fair learning methods under this framework, exemplify four methods, and show they consistently outperform their existing counterparts in both fairness and accuracy across three real-world data sets. We theoretically analyze the framework and prove it can learn models with high fairness or high accuracy, with their trade-offs balanced by a threshold variable.
+
+### Requirements
+
+Python 3.8.5 and Matlab R2021a.
 
 ### Citation
 
@@ -26,5 +34,14 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
   author={Hu, Hui and Lan, Chao},
   booktitle={The AAAI Workshop on Privacy-Preserving Artificial Intelligence},
   year={2020}
+}
+{
+@inproceedings{hu2021privacy,
+  title={Privacy-Preserving Fair Machine Learning Without Collecting Sensitive Demographic Data},
+  author={Hu, Hui and Borowczak, Mike and Chen, Zhengzhang},
+  booktitle={2021 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--9},
+  year={2021},
+  organization={IEEE}
 }
 ```
