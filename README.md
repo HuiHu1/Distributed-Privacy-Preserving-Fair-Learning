@@ -22,9 +22,9 @@ Python 3.8.5 and Matlab R2021a.
 [[paper link]](https://arxiv.org/abs/1907.02242)[[code link]](https://github.com/aokray/FFE).
 
 2. Improving Prediction Fairness via Model Ensemble. Accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019. 
-[[paper link]](https://ieeexplore.ieee.org/abstract/document/8995403).
+[[link]](https://ieeexplore.ieee.org/abstract/document/8995403).
 
-3. Learning from self-reported Twitter data by FastText with sample selection bias correction. ACM Rocky Mountain Celebration of Women in Computing, 2018. [[poster link]](https://github.com/HuiHu1/Cooperative-Projects-on-Fairness-Topic/blob/main/Learning%20from%20self-reported%20Twitter%20data%20by%20FastText%20with%20sample%20selection%20bias%20correction.pdf).
+3. Learning from self-reported Twitter data by FastText with sample selection bias correction. ACM Rocky Mountain Celebration of Women in Computing, 2018. [[link]](https://github.com/HuiHu1/Cooperative-Projects-on-Fairness-Topic/blob/main/Learning%20from%20self-reported%20Twitter%20data%20by%20FastText%20with%20sample%20selection%20bias%20correction.pdf).
 
 ### Citation
 
