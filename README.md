@@ -2,7 +2,7 @@ Matlab and Python implementation of privacy-preserving fair machine learning:
 
 1. "A Distributed Fair Machine Learning Framework with Private Demographic Data Protection" (ICDM 2019) [[Link]](https://arxiv.org/abs/1909.08081) 
 
-2. "Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework" (PPAI 2019) [[Link]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
+2. "Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework" (PPAI 2020) [[Link]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
 
 3. "Privacy-Preserving Fair Machine Learning Without Collecting Sensitive Demographic Data" (IJCNN 2021) [[Link]](https://www.researchgate.net/publication/354713144_Privacy-Preserving_Fair_Machine_Learning_Without_Collecting_Sensitive_Demographic_Data).
 
