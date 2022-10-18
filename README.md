@@ -1,3 +1,5 @@
+This repository is to explore privacy-preserving fair machine learning.
+
 Matlab and Python implementation of privacy-preserving fair machine learning:
 
 1. A Distributed Fair Machine Learning Framework with Private Demographic Data Protection (ICDM 2019) [[Link]](https://arxiv.org/abs/1909.08081) 
