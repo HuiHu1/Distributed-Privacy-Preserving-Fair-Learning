@@ -1,4 +1,4 @@
-This repository is to explore privacy-preserving fair machine learning.
+This repository aims to record the related work on privacy-preserving fair machine learning.
 
 Matlab and Python implementation of privacy-preserving fair machine learning:
 
