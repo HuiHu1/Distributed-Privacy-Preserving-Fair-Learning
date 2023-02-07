@@ -8,7 +8,7 @@ Matlab and Python implementation of privacy-preserving fair machine learning:
 
 3. Privacy-Preserving Fair Machine Learning Without Collecting Sensitive Demographic Data (IJCNN 2021) [[Paper]](https://www.researchgate.net/publication/354713144_Privacy-Preserving_Fair_Machine_Learning_Without_Collecting_Sensitive_Demographic_Data).
 
-4. Privacy-Preserving Fair Machine Learning by Utilizing Proxy Data (SDM 2021) [Poster].
+4. Privacy-Preserving Fair Machine Learning by Utilizing Proxy Data (SDM 2021) [[Poster]](https://github.com/HuiHu1/Cooperative-Projects/blob/main/SDM2021.pdf).
 
 
 ### Abstract
