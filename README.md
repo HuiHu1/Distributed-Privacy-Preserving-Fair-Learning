@@ -2,7 +2,7 @@ This repository aims to record the related work on privacy-preserving fair machi
 
 Matlab and Python implementation of privacy-preserving fair machine learning:
 
-1. A Distributed Fair Machine Learning Framework with Private Demographic Data Protection (ICDM 2019) [[Paper]](https://arxiv.org/abs/1909.08081) 
+1. A Distributed Fair Machine Learning Framework with Private Demographic Data Protection (ICDM 2019) [[Paper]](https://arxiv.org/pdf/1909.08081.pdf) 
 
 2. Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework (PPAI 2020) [[Paper]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
 
