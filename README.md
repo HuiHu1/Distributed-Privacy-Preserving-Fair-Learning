@@ -2,13 +2,13 @@ This repository aims to record the related work on privacy-preserving fair machi
 
 Matlab and Python implementation of privacy-preserving fair machine learning:
 
-1. A Distributed Fair Machine Learning Framework with Private Demographic Data Protection (ICDM 2019) [[Paper]](https://arxiv.org/pdf/1909.08081.pdf) 
+1. A Distributed Fair Machine Learning Framework with Private Demographic Data Protection (ICDM 2019)[[Paper]](https://arxiv.org/pdf/1909.08081.pdf) 
 
-2. Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework (PPAI 2020) [[Paper]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
+2. Inference Attack and Defense on the Distributed Private Fair Machine Learning Framework (PPAI 2020)[[Paper]](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/papers/paper_26.pdf).
 
-3. Privacy-Preserving Fair Machine Learning Without Collecting Sensitive Demographic Data (IJCNN 2021) [[Paper]](https://ieeexplore.ieee.org/document/9534017).
+3. Privacy-Preserving Fair Machine Learning Without Collecting Sensitive Demographic Data (IJCNN 2021)[[Paper]](https://ieeexplore.ieee.org/document/9534017).
 
-4. Privacy-Preserving Fair Machine Learning by Utilizing Proxy Data (SDM 2021) [[Poster]](https://github.com/HuiHu1/Cooperative-Projects/blob/main/SDM2021.pdf).
+4. Privacy-Preserving Fair Machine Learning by Utilizing Proxy Data (SDM 2021)[[Poster]](https://github.com/HuiHu1/Cooperative-Projects/blob/main/SDM2021.pdf).
 
 
 ### Abstract
@@ -20,13 +20,11 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
 Python 3.8.5 and Matlab R2021a.
 
 ### Cooperative Projects on Fairness Topic
-1. Fair kernel regression via fair feature embedding in RKHS. accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019
-[[Paper]](https://arxiv.org/abs/1907.02242)[[Code]](https://github.com/aokray/FFE).
+1. Fair kernel regression via fair feature embedding in RKHS. accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019[[Paper]](https://arxiv.org/abs/1907.02242)[[Code]](https://github.com/aokray/FFE).
 
-2. Improving Prediction Fairness via Model Ensemble. Accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/8995403).
+2. Improving Prediction Fairness via Model Ensemble. Accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019[[Paper]](https://ieeexplore.ieee.org/abstract/document/8995403).
 
-3. Learning from self-reported Twitter data by FastText with sample selection bias correction. ACM Rocky Mountain Celebration of Women in Computing, 2018 [[Poster]](https://github.com/HuiHu1/Cooperative-Projects/blob/main/Learning%20from%20self-reported%20Twitter%20data%20by%20FastText%20with%20sample%20selection%20bias%20correction.pdf).
+3. Learning from self-reported Twitter data by FastText with sample selection bias correction. ACM Rocky Mountain Celebration of Women in Computing, 2018[[Poster]](https://github.com/HuiHu1/Cooperative-Projects/blob/main/Learning%20from%20self-reported%20Twitter%20data%20by%20FastText%20with%20sample%20selection%20bias%20correction.pdf).
 
 ### Citation
 
