@@ -20,7 +20,7 @@ data, which is increasingly restricted to use for protecting user privacy (e.g. 
 Python 3.8.5 and Matlab R2021a.
 
 ### Cooperative Projects on Fairness Topic
-1. Fair kernel regression via fair feature embedding in RKHS. accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019[[Paper]](https://arxiv.org/abs/1907.02242)[[Code]](https://github.com/aokray/FFE).
+1. Fair kernel regression via fair feature embedding in RKHS. accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019[[Paper]](https://arxiv.org/pdf/1907.02242.pdf)[[Code]](https://github.com/aokray/FFE).
 
 2. Improving Prediction Fairness via Model Ensemble. Accepted to International Conference on Tools with Artiﬁcial Intelligence (ICTAI), 2019[[Paper]](https://ieeexplore.ieee.org/abstract/document/8995403).
 
